@@ -1,3 +1,7 @@
+// 概要
+// このスクリプトは、Google Earth Engineを使用して特定の鳥類追跡データ（kohakutyo3）から放鳥点と回収点の植生指数（NDVI）を分析します。
+// 2016年から2019年にかけてのMODIS衛星から得られるNDVIデータを用いて、それぞれの地点の平均NDVI値を計算し、これにより鳥類の生息地の環境変化を把握します。
+
 // グローバルアセットから特定のフィーチャーコレクションを読み込み
 var table = ee.FeatureCollection("projects/ee-forvirgo77/assets/kohakutyo3");
 var birdData = ee.FeatureCollection(table);

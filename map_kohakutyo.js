@@ -1,3 +1,7 @@
+// 概要
+// このスクリプトは、Google Earth Engine (GEE) を使用して、特定の放鳥データセット（kohakutyo2）からコハクチョウの放鳥点と回収点を視覚化します。
+// 各鳥類のペアごとに、放鳥点と回収点を地図上に表示し、両点を結ぶ直線を描画してその移動経路を示します。
+
 // assets import
 var table = ee.FeatureCollection("projects/ee-forvirgo77/assets/kohakutyo2");
 
