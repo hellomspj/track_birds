@@ -9,7 +9,7 @@
 ### ステップ 1: データの取得
 1. BioDICの鳥類標識調査ページにアクセスします。
 2. 回収記録データをクリックしてアクセスし、特定の鳥種に関するデータのリンクを選択します。
-3. 該当する鳥種のページから、KMLファイルをダウンロード。スクリプトの中からKMZファイル（例: https://www.biodic.go.jp/birdRinging/data/narrowarea/Cygnus_columbianus/2019_Cygnus_columbianus.kmz） をダウンロードします。
+3. 該当する鳥種のページから、KMLファイルをダウンロード。スクリプトの中からKMZファイル（例: https://www.biodic.go.jp/birdRinging/data/narrowarea/Cygnus_columbianus/2019_Cygnus_columbianus.kmz） をダウンロードします。今回はコハクチョウのデータを使用します。
 ### ステップ 2: データの変換
 1. Google Earth Proを開き、ダウンロードしたKMZファイルをロードします。
 2. ファイルをKML形式にエクスポートします。
